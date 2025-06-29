@@ -3,13 +3,13 @@ import React from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const [input,setInput]=useState("");
+  const [input,setInput]=useState('');
   const onAdd=(e)=>{
     const value=e.target.value;
     setInput(value);
   }
   const onClear=()=>{
-    setInput("");
+    setInput('');
   }
   return (
     <div>
