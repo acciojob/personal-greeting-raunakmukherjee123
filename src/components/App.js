@@ -15,7 +15,7 @@ const App = () => {
     <div>
        <p>Enter your name:</p>
         <input value={input} onChange={onAdd} />
-       {input.length>0 && <p>Hello {input}</p>
+       {input.length>0 && <p>Hello {input}!</p>
         <button onClick={onClear}>Clear</button>
     </div>
   )
